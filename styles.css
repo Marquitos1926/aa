@@ -1,0 +1,45 @@
+/* Definir o fundo da página como azul escuro e o texto branco */
+body {
+    background-color: #003366; /* Fundo azul escuro */
+    color: white; /* Texto branco */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    background-color: #005599;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para os campos de entrada */
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 3px; /* Bordas arredondadas */
+    border: none; 
+}
+
+/* estilo do botão */
+button {
+    background-color: white; /* Fundo branco */
+    color: #003366; /* texto azul escuro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* efeito hover no botão */
+button:hover {
+    background-color: #003366;
+    color: white;
+}
+
+/* Lista de produtos */
+#productList {
+    margin-top: 20px;
+}
